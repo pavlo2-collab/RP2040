@@ -34,13 +34,13 @@
 
 // Define step pulse output pins.
 #define STEP_PORT               GPIO_PIO  // N_AXIS pin PIO SM
-#define STEP_PINS_BASE          2         // N_AXIS number of consecutive pins are used by PIO
+#define STEP_PINS_BASE          0         // N_AXIS number of consecutive pins are used by PIO
 
 // Define step direction output pins.
 #define DIRECTION_PORT          GPIO_OUTPUT
-#define X_DIRECTION_PIN         5
-#define Y_DIRECTION_PIN         6
-#define Z_DIRECTION_PIN         7
+#define X_DIRECTION_PIN         1
+#define Y_DIRECTION_PIN         3
+#define Z_DIRECTION_PIN         5
 #define DIRECTION_OUTMODE       GPIO_SHIFT5
 
 // Define stepper driver enable/disable output pin.
